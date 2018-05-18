@@ -1,4 +1,48 @@
-p {
-  color: blue;
-  font-size: 20px;
+/* Colours used in title: #3911C9 #FCD450 #000000 */
+
+html {
+  height: 100%;
+  background: linear-gradient(to bottom right, #DADADA, #FFFFFF);
+}
+
+.title {
+  display: block;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.navbardiv {
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 15px 40px 15px 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar li {
+    display: inline;
+    padding: 15px 0 15px 0;
+}
+
+.navbar li:hover {
+  background-color: #DDDDDD;
+}
+
+
+.navbar li a {
+      padding: 15px 20px 15px 20px;
+  color: #404040;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
 }
