@@ -1,17 +1,21 @@
 /* Colours used in title: #3911C9 #FCD450 #000000 */
 
-html {
-  height: 100%;
-  background: linear-gradient(to bottom right, #DADADA, #FFFFFF);
-  padding:0;
-  width:100%;
-}
 *{
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
-body{
-  margin:0px;
+
+html {
+  height: 100%;
+  background-color: #EFEFEF;
+  padding: 0;
+  width: 100%;
 }
+
+body {
+  margin: 0px;
+}
+
 .title {
   display: block;
   height: 80px;
@@ -41,47 +45,38 @@ body{
     padding: 15px 0 15px 0;
 }
 
-.navbar li:hover,.dropdown:hover .dropbtn,.dropdownInterviews:hover .dropbtnInterviews {
+.navbar li:hover, .dropdown:hover, .dropbtn {
   background-color: #DDDDDD;
 }
 
-
-.navbar li a {
+.navlink {
   padding: 15px 20px 15px 20px;
-  color: #404040;
-  font-family: 'Lato', sans-serif;
+  color: #303030;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-/* The dropdown container */
-.dropdown,.dropdownInterviews {
-  float:left;
-  overflow: hidden;
-}
 
-/* Dropdown button */
-.dropdown .dropbtn ,.dropdownInterviews .dropbtnInterviews{
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
+/* Dropdown */
+.dropdown {
   text-decoration: none;
-  font-size: 17px;
   border: none;
   outline: none;
   color: #404040;
-  padding: 15px 20px 15px 20px;
   background-color: inherit;
   margin: 0; /* Important for vertical align on mobile phones */
 }
-.dropdown-content,.dropdown-contentInterviews {
+
+.dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #F8F8F8;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-content a,.dropdown-contentInterviews a {
+
+.dropdown-content a {
   float: none;
   color: black;
   padding: 12px 16px;
@@ -89,59 +84,59 @@ body{
   display: block;
   text-align: left;
 }
+
 /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover, .dropdown-contentInterviews a:hover {
+.dropdown-content a:hover {
   background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content,.dropdownInterviews:hover .dropdown-contentInterviews {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
-.flex-container{
+.flex-container {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: 800px;
   padding-top: 10px;
   padding-bottom: 0;
-
 }
-.introduction h1{
+
+.introduction h1 {
   padding-left: 75px;
-
 }
-.introduction{
+
+.introduction {
   border-right: 1px solid #ccc;
   float:left;
   width: 60%;
 }
 
-.resources h1{
+.resources h1 {
   padding-left: 55px;
-
 }
-.resources{
+
+.resources {
   float:right;
   width: 40%;
   height: 50%;
 }
 
-.newsletter h1{
+.newsletter h1 {
   padding-left: 75px;
-
 }
-.newsletter{
+
+.newsletter {
   padding-top: 0px;
   background-color: red;
   width: 100%;
   padding: 0;
-
 }
 
-.footer{
-  position: static
+.footer {
+  position: static;
   z-index: 10;
   bottom: 0;
   padding-top: 5px;
