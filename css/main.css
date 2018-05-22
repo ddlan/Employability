@@ -103,7 +103,11 @@ body {
   padding-top: 10px;
   padding-bottom: 0;
 }
-
+.flex-container p{
+ float:left;
+ padding-left: 76px;
+ padding-right: 50px;
+}
 .introduction h1 {
   padding-left: 75px;
 }
@@ -122,6 +126,11 @@ body {
   float:right;
   width: 40%;
   height: 50%;
+}
+.resources p{
+ float:left;
+ padding-left: 56px;
+ padding-right: 50px;
 }
 
 .newsletter h1 {
