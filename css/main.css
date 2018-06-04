@@ -157,7 +157,7 @@ body {
   text-align: center;
 }
 
-/* The sidebar menu */
+/* The sidebar menu for big5*/
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
@@ -165,7 +165,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black */
+    background-color: white;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -173,6 +173,7 @@ body {
 /* The navigation menu links */
 .sidenav a {
     padding: 6px 8px 6px 16px;
+    padding-left: 100px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
