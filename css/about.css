@@ -1,3 +1,10 @@
 #aboutlink {
   background-color: #DDDDDD;
 }
+.aboutTitle{
+  width: 80%;
+  margin-left: 10%;
+}
+.aboutTitle p{
+  margin-bottom: 100px;
+}
