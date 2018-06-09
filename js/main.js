@@ -1,5 +1,4 @@
-// nothing here yet
-
+// Return to main page
 function goHome() {
   window.location.replace("index.html");
 }
