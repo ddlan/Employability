@@ -1,3 +1,10 @@
 #interviewslink {
   background-color: #DDDDDD;
 }
+.interviewTitle{
+  width: 80%;
+  margin-left: 10%;
+}
+.interviewTitle p{
+  margin-bottom: 120px;
+}
